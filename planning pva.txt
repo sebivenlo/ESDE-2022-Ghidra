@@ -1,0 +1,14 @@
+- introductie (powerpoint) 5 min?
+- kahoot quizizz?
+- workshop( opdracht)
+
+crackme exercise
+
+pva:
+informatie opzoeken(research)
+maken powerpoint
+
+bekend worden met reverse engineer programmen.
+
+vragen aan leraren:
+Dependecies should be available as Docker images (or other similar tools, no installing of dependecies)
