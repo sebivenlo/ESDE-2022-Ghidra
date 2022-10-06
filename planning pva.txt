@@ -11,4 +11,6 @@ maken powerpoint
 bekend worden met reverse engineer programmen.
 
 vragen aan leraren:
-Dependecies should be available as Docker images (or other similar tools, no installing of dependecies)
+Dependecies should be available as Docker images (or other similar tools, no installing of dependecies)\\
+
+Moet werken met docker probeer via java11 Docker en dan de binaries van Ghidra te gebruiken/downloaden 
