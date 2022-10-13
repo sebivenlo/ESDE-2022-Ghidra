@@ -1,6 +1,7 @@
 - introductie (powerpoint) 5 min?
 - kahoot quizizz?
 - workshop( opdracht)
+- cheatsheet maken om uit te delen (eventueel).
 
 crackme exercise
 
@@ -14,3 +15,9 @@ vragen aan leraren:
 Dependecies should be available as Docker images (or other similar tools, no installing of dependecies)\\
 
 Moet werken met docker probeer via java11 Docker en dan de binaries van Ghidra te gebruiken/downloaden 
+
+volgende datums 19-10-2022
+- PP af - Sjong
+- Quiz - Glenn
+- begin maken aan cheatsheet.
+
