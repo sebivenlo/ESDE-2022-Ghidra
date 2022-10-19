@@ -21,3 +21,9 @@ volgende datums 19-10-2022
 - Quiz - Glenn
 - begin maken aan cheatsheet.
 
+volgende datum 02-11-2022
+Docker container opzetten - minimum requirement java 11
+Crackme excerise password finder + nog een anderen beetje moeilijker.
+Toevoegen aan pp en quiz?
+Trial run hoelang duurt alles.
+
