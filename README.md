@@ -1,13 +1,13 @@
 # ESDE-2022-Ghidra
 Ghidra is one of many open source software (OSS) projects developed within the National Security Agency.
 
-#For everbody
+# For everbody
 Setup:
 Go to https://github.com/NationalSecurityAgency/ghidra/releases and download the latest Ghidra 10.2.2 (zip) 
 
 To install Ghidra, simply extract the Ghidra distribution file to the desired filesystem destination using any unzip program (built-in OS utilities, 7-Zip, WinZip, WinRAR, etc)
 
-#Windows:
+# Windows:
 If not installed already (JDK needs to be 11 or higher) 
 Go to https://adoptium.net/temurin/releases/
 
@@ -30,7 +30,7 @@ At the end of the the Variable value field, add a semicolon followed by <path of
 Click OK
 Restart any open Command Prompt windows for changes to take effect
 
-#Linux and macOS (OS X):
+# Linux and macOS (OS X):
 If not installed already (JDK needs to be 11 or higher)
 Go to https://adoptium.net/temurin/releases/ 
 Extract the JDK distribution (.tar.gz file) to your desired location, and add the JDK's bin directory to your PATH:
