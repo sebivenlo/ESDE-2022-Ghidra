@@ -89,6 +89,7 @@ In this tutorial, we covered the basics of Ghidra and provided step-by-step inst
  
 == Exercises 
 Next are going to be some exercises to do along with the instructions to familiarize yourself with Ghidra and get to know some basic functionality which you will use to complete the assignment lateron.
+
 === Exercise 1: 
 
 Creating  
@@ -117,6 +118,7 @@ Listing function.
 
  
 === Basic functionality of ghidra:
+
 The next set of instructions is to try and understand the basic functionality of Ghidra.
 
 
