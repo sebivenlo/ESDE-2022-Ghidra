@@ -123,7 +123,7 @@ Highlighting:
 When you click on a piece of code in the listing or in the decompile window you see it gets selected on the other window aswell: 
 
 .Highlight example
-image::Highlighted.png
+image::Highlighted.png[]
 
 To make the code more readable, you can use labels or renaming the variables to make it easier to read. 
 
