@@ -1,0 +1,158 @@
+ifdef::env-github[]
+:imagesdir: images/
+endif::[]
+:imagesdir: images
+
+== ESDE Workshop
+ 
+
+Ghidra is a powerful software reverse engineering framework that can be used to analyze and understand the inner workings of software programs. It was originally developed by the National Security Agency (NSA) and was later released to the public as open-source software. 
+
+  
+
+In this tutorial, we will cover the basics of Ghidra and provide step-by-step instructions for using it to reverse engineer a simple program. 
+
+  
+
+Installation: (If you already have installed Ghidra you can skip this step) 
+
+To get started with Ghidra, you first need to download and install it on your computer. Ghidra is available for Windows, Linux, and macOS, and can be downloaded from the official website at https://ghidra-sre.org/. Follow the installation instructions provided on the website to install Ghidra on your system. 
+
+  
+
+Creating a New Project 
+
+Once Ghidra is installed, you can create a new project by launching Ghidra and selecting "File"> "New Project" from the menu. Give your project a name and select a directory to save it in. 
+
+  
+
+Basic code analysis: 
+
+When a program first opens in tool, it automatically kicks off auto-analysis and asks the user for confirmation to start analyzing the program you have loaded. 
+
+The main goal of auto analyzing is creating cross referencing, creating functions at called locations and disassembling the program following flows. With the help of some options, you can make auto analysis, also help with making switch statements and Demange mangled names and perform specific functions depending on binary type to name a few. But these functions can better be done later, and it is best to start with only the basic options. 
+
+ 
+Selections and highlights: 
+
+Selections are temporary and have a green glow to them when selected, you can create them manually and created using the select menu. When searching for something you get an automatically selected part which you searched for when found. 
+
+Highlights, however, are semi-permanent and do not go away until user clears using menu. 
+
+ 
+
+ 
+
+Importing a Program 
+
+With your project created, you can now import the program that you want to reverse engineer. Select "File"> "Import File" from the menu and select the executable file of the program you want to analyze. Ghidra will automatically analyze the program and create a new program database (PDB) file. 
+
+  
+
+Analyzing the Program 
+
+Once the program is imported, you can start analyzing it in Ghidra. The main interface of Ghidra is divided into several windows, including the CodeBrowser, the Symbol Tree, and the Listing window. The CodeBrowser is the main window that shows the program's disassembled code. 
+
+  
+
+To analyze the program, you can start by exploring the CodeBrowser and examining the distinct functions and instructions of the program. You can also use the Symbol Tree to navigate the different symbols and functions of the program. 
+
+  
+
+Decompiling the Program 
+
+One of the most powerful features of Ghidra is its ability to decompile the program code into C code. To decompile a function, simply double-click on the function in the CodeBrowser, and select "Decompile" from the context menu. 
+
+  
+
+The decompiled code can be used to better understand the program's functionality and to help identify vulnerabilities or security issues. 
+
+  
+
+Debugging the Program 
+
+Another useful feature of Ghidra is its ability to debug the program. To start debugging, select "Debugger"> "Attach to Process" from the menu, and select the process that you want to debug. 
+
+  
+
+Once attached, you can use the Debugger window to set breakpoints, step through the code, and examine the memory and registers of the program. 
+
+  
+
+Conclusion 
+
+In this tutorial, we covered the basics of Ghidra and provided step-by-step instructions for using it to reverse engineer a simple program. While Ghidra can be a complex tool, it is also incredibly powerful and can be used to analyze and understand the inner workings of even the most complex software programs. With some practice, you can become proficient in using Ghidra to reverse engineer programs and identify vulnerabilities and security issues. 
+
+ 
+ 
+
+Exercise 1: 
+
+Creating  
+
+Importing  
+
+Auto analysis 
+
+ 
+
+Exercise 2:  
+
+Using functionality Searching for FUN in the listing view. 
+
+FUN_00101179 stands for Main function and you can change it to main. 
+
+Search for address tables where you can search some specific parts like the FUN 
+
+(Table.) 
+
+Scripting in ghidra: creating a script to run. 
+
+Listing function. 
+
+ 
+
+ 
+
+The next set of instructions is to try and understand the basic functionality of Ghidra: 
+
+ 
+
+Highlighting: 
+
+When you click on a piece of code in the listing or in the decompile window you see it gets selected on the other window aswell: 
+
+.Highlight example
+image::Highlighted.png
+
+To make the code more readable, you can use labels or renaming the variables to make it easier to read. 
+
+This is done by clicking on the word in the decompiler and pressing L or right click and rename variable. 
+
+ 
+
+ 
+
+Convert 
+
+Bookmarks 
+
+Search 
+
+ 
+
+Existing exercise with password. 
+
+Assignment CrackMe1 
+
+Open the .jar file in ghidra using the import file function and look for the password. And look around for what you can find. 
+
+If the jar does not run when you double, click on it then you can use this command: java -jar jarfilename.jar 
+
+Good luck! 
+
+ 
+
+https://static.grumpycoder.net/pixel/docs/GhidraClass/Beginner/Introduction_to_Ghidra_Student_Guide_withNotes.html#Introduction_to_Ghidra_Student_Guide.html 
+
+ 
