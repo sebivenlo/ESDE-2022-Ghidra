@@ -268,7 +268,7 @@ Use the "Strings" window to locate Strings in memory. For example “Hello world
 
 https://static.grumpycoder.net/pixel/docs/GhidraClass/Beginner/Introduction_to_Ghidra_Student_Guide_withNotes.html#Introduction_to_Ghidra_Student_Guide.html 
 
-Useful Sources:
+== Useful Sources:
 The official Ghidra page https://ghidra-sre.org/
 How to use Ghidra https://www.varonis.com/blog/how-to-use-ghidra 
 For more exercises https://crackmes.one/ 
