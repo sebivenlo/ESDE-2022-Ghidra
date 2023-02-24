@@ -1,7 +1,9 @@
 ifdef::env-github[]
 :imagesdir: images/
+:linkdir: Assignment/
 endif::[]
 :imagesdir: images
+:linkdir: assignment
 :toc:
 :toc-placement!:
 
@@ -227,12 +229,13 @@ when you want to search for a specific string in the project to be able to jump 
 
 .Search example
 image::Search.png[]
- 
-next is the main assignment of the workshop:
+
+
+next is the main assignment of the workshop: +
 
 === Practice into Action CrackMe1 Assignment
 
-Go into the Assignment folder
+Go into the Assignment folder in this workshop Folder
 
 Open the .jar file in ghidra using the import file function and look for the password. And look around for what you can find. 
 
