@@ -122,7 +122,7 @@ Listing function.
 The next set of instructions is to try and understand the basic functionality of Ghidra.
 
 
-Highlighting: 
+==== Highlighting
 
 When you click on a piece of code in the listing or in the decompile window you see it gets selected on the other window aswell: 
 
@@ -137,22 +137,21 @@ This is done by clicking on the word in the decompiler and pressing L or right c
 image::Labels.png[]
 
  
-Convert 
+==== Convert 
 --
 .Convert example
 image::Convert.png[]
 
-Bookmarks 
+==== Bookmarks 
 --
 .Bookmarks example
 image::Bookmark.png[]
 
-Search 
+==== Search 
 --
 .Search example
 image::Search.png[]
  
-
 == Practice into Action CrackMe1 Assignment
 
 Go into the Assignment folder
