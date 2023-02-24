@@ -122,14 +122,14 @@ Listing function.
 The next set of instructions is to try and understand the basic functionality of Ghidra.
 
 
-Highlighting
+* Highlighting
 
 When you click on a piece of code in the listing or in the decompile window you see it gets selected on the other window aswell: 
 
 .Highlight example
 image::Highlighted.png[]
 
-Labels
+* Labels
 
 To make the code more readable, you can use labels or renaming the variables to make it easier to read. 
 
@@ -139,20 +139,20 @@ This is done by clicking on the word in the decompiler and pressing L or right c
 image::Labels.png[]
 
  
-Convert 
+* Convert 
 when you want to view numbers in a diffrent type like an unsigned decimal instead of Hex numbers that are in the listing view
 you select the line where you want the convert to happen and right click and convert.
 
 .Convert example
 image::Convert.png[]
 
-Bookmarks 
+* Bookmarks 
 for the possibility to easily navigate between functions/methods of interest where you can create multiple bookmarks and switch between them.
 
 .Bookmarks example
 image::Bookmark.png[]
 
-Search 
+* Search 
 when you want to search for a specific string in the project to be able to jump to the position of this string to get more knowledge about how the application works.
 
 .Search example
