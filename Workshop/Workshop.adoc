@@ -90,9 +90,9 @@ In this tutorial, we covered the basics of Ghidra and provided step-by-step inst
 == Exercises 
 Next are going to be some exercises to do along with the instructions to familiarize yourself with Ghidra and get to know some basic functionality which you will use to complete the assignment lateron.
 
-=== Exercise 1: 
+=== Exercise: 
 
-.exercise 1 code
+.exercise code
 ----
 [source,C]
 // @author Sjong Leow {@code s.leow@student.fontys.nl} 
@@ -131,13 +131,13 @@ Save this program as a file called program.c.
 
   
 
-. Open Ghidra: 
+* Open Ghidra: 
 
 Once you've downloaded and installed Ghidra, open the program. 
 
   
 
-. Create a new project: 
+* Create a new project: 
 
 When you first open Ghidra, you'll be prompted to create a new project. Give your project a name and select a location to save it. 
 
@@ -147,61 +147,61 @@ Go to where you saved your program.c use a C compiler such as GCC or Clang to co
 
  
 
-. Import the program:  
+* Import the program:  
 
 In the Ghidra project window, right-click on "Programs" and select "Import file." Navigate to the location of your program.c file and select it. 
 
   
 
-. Analyze the program:  
+* Analyze the program:  
 
 Once your program is imported, right-click on it and select "Analyze." Ghidra will analyze the program and create a "Program Tree" on the left-hand side of the screen. 
 
   
 
-. Explore the program:  
+* Explore the program:  
 
 	You can now explore the program using the "Program Tree" and the different views in Ghidra. For example, you can view the program's code in the "Listing" view, which shows the assembly code for the program. 
 
   
 
-. Disassemble the program:  
+* Disassemble the program:  
 
 	Let's disassemble the program to see its assembly code. In the "Program Tree," expand the "Functions" section and find the main function. Double-click on the function to open it in the "Listing" view. 
 
   
 
-. Analyze the disassembled code:  
+* Analyze the disassembled code:  
 
 In the "Listing" view, you can see the assembly code for the main function. You can use the assembly code to better understand how the program works. 
 
   
 
-. Find the printf function:  
+* Find the printf function:  
 
 Let's find the printf function in the program. In the "Program Tree," expand the "Symbols" section and find the symbol that represents the printf function. Double-click on the symbol to open it in the "Listing" view. 
 
   
 
-. Analyze the printf function:  
+* Analyze the printf function:  
 
 In the "Listing" view, you can see the assembly code for the printf function. You can use the assembly code to better understand how the printf function works. 
 
   
 
-. Find the user input functions:  
+* Find the user input functions:  
 
 Let's find the scanf functions that read in the user's name and age. In the "Program Tree," expand the "Functions" section and find the main function. Right-click on the function and select "Find references." In the "Find References" window, search for scanf. 
 
   
 
-. Analyze the user input functions:  
+* Analyze the user input functions:  
 
 Ghidra will show you all the places in the program where the scanf functions are used to read in user input. You can use this information to better understand how the user input is processed. 
 
   
 
-. Save your work:  
+* Save your work:  
 
 Once you've analyzed the program to your satisfaction, make sure to save your Ghidra project so you can return to it later if needed. 
 
@@ -257,9 +257,14 @@ Open the .jar file in ghidra using the import file function and look for the pas
 
 If the jar does not run when you double, click on it then you can use this command: java -jar jarfilename.jar 
 
+
+
 Good luck! 
 
- 
+ Hints
+Use the "Functions" window to list all functions in the program.
+Use the "Disassembly" window to view the assembly code of the program.
+Use the "Strings" window to locate Strings in memory. For example “Hello world” or other things that are relevant in the project or exercise like “Password” or “User name”.
 
 https://static.grumpycoder.net/pixel/docs/GhidraClass/Beginner/Introduction_to_Ghidra_Student_Guide_withNotes.html#Introduction_to_Ghidra_Student_Guide.html 
 
