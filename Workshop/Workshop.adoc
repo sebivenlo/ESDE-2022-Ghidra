@@ -131,13 +131,13 @@ Save this program as a file called program.c.
 
   
 
-1. Open Ghidra: 
+. Open Ghidra: 
 
 Once you've downloaded and installed Ghidra, open the program. 
 
   
 
-2. Create a new project: 
+. Create a new project: 
 
 When you first open Ghidra, you'll be prompted to create a new project. Give your project a name and select a location to save it. 
 
@@ -147,61 +147,61 @@ Go to where you saved your program.c use a C compiler such as GCC or Clang to co
 
  
 
-3. Import the program:  
+. Import the program:  
 
 In the Ghidra project window, right-click on "Programs" and select "Import file." Navigate to the location of your program.c file and select it. 
 
   
 
-4. Analyze the program:  
+. Analyze the program:  
 
 Once your program is imported, right-click on it and select "Analyze." Ghidra will analyze the program and create a "Program Tree" on the left-hand side of the screen. 
 
   
 
-5. Explore the program:  
+. Explore the program:  
 
 You can now explore the program using the "Program Tree" and the different views in Ghidra. For example, you can view the program's code in the "Listing" view, which shows the assembly code for the program. 
 
   
 
-6. Disassemble the program:  
+. Disassemble the program:  
 
 Let's disassemble the program to see its assembly code. In the "Program Tree," expand the "Functions" section and find the main function. Double-click on the function to open it in the "Listing" view. 
 
   
 
-7. Analyze the disassembled code:  
+. Analyze the disassembled code:  
 
 In the "Listing" view, you can see the assembly code for the main function. You can use the assembly code to better understand how the program works. 
 
   
 
-8. Find the printf function:  
+. Find the printf function:  
 
 Let's find the printf function in the program. In the "Program Tree," expand the "Symbols" section and find the symbol that represents the printf function. Double-click on the symbol to open it in the "Listing" view. 
 
   
 
-9. Analyze the printf function:  
+. Analyze the printf function:  
 
 In the "Listing" view, you can see the assembly code for the printf function. You can use the assembly code to better understand how the printf function works. 
 
   
 
-10. Find the user input functions:  
+. Find the user input functions:  
 
 Let's find the scanf functions that read in the user's name and age. In the "Program Tree," expand the "Functions" section and find the main function. Right-click on the function and select "Find references." In the "Find References" window, search for scanf. 
 
   
 
-11. Analyze the user input functions:  
+. Analyze the user input functions:  
 
 Ghidra will show you all the places in the program where the scanf functions are used to read in user input. You can use this information to better understand how the user input is processed. 
 
   
 
-12. Save your work:  
+. Save your work:  
 
 Once you've analyzed the program to your satisfaction, make sure to save your Ghidra project so you can return to it later if needed. 
 
