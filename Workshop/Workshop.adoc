@@ -73,7 +73,7 @@ Once attached, you can use the Debugger window to set breakpoints, step through 
 
 In this workshop, we covered the basics of Ghidra and provided step-by-step instructions for using it to reverse engineer a simple program. While Ghidra can be a complex tool, it is also incredibly powerful and can be used to analyze and understand the inner workings of even the most complex software programs. With some practice, you can become proficient in using Ghidra to reverse engineer programs and identify vulnerabilities and security issues. 
 
-
+'''
 == Exercises 
 Next are going to do an exercise to do along with the instructions to familiarize yourself with Ghidra and get to know some basic functionality which you will use to complete the assignment later on.
 
@@ -188,7 +188,6 @@ Ghidra will show you all the places in the program where the scanf functions are
 Once you've analyzed the program to your satisfaction, make sure to save your Ghidra project so you can return to it later if needed. 
 
  
- 
 === Basic functionality of ghidra:
 
 The next set of instructions is to try and understand the basic functionality of Ghidra.
@@ -204,7 +203,6 @@ image::Highlighted.png[]
 * Labels
 
 To make the code more readable, you can use labels or renaming the variables to make it easier to read. 
-
 This is done by clicking on the word in the decompiler and pressing L or right click and rename variable. 
 
 .Variable example
@@ -212,28 +210,30 @@ image::Labels.png[]
 
  
 * Convert 
-when you want to view numbers in a diffrent type like an unsigned decimal instead of Hex numbers that are in the listing view
-you select the line where you want the convert to happen and right click and convert.
+When you want to view numbers in a diffrent type like an unsigned decimal instead of Hex numbers that are in the listing view
+You select the line where you want the convert to happen and right click and convert.
 
 .Convert example
 image::Convert.png[]
 
 * Bookmarks 
-for the possibility to easily navigate between functions/methods of interest where you can create multiple bookmarks and switch between them.
+For the possibility to easily navigate between functions/methods of interest where you can create multiple bookmarks and switch between them.
 
 .Bookmarks example
 image::Bookmark.png[]
 
 * Search 
-when you want to search for a specific string in the project to be able to jump to the position of this string to get more knowledge about how the application works.
+When you want to search for a specific string in the project to be able to jump to the position of this string to get more knowledge about how the application works.
 
 .Search example
 image::Search.png[]
 
+'''
+<<<
 
-next is the main assignment of the workshop: +
+Next is the main assignment of the workshop: +
 
-=== Practice into Action CrackMe1 Assignment
+== Practice into Action CrackMe1 Assignment
 
 Go into the Assignment folder in this workshop Folder
 
@@ -245,7 +245,7 @@ If the jar does not run when you double, click on it then you can use this comma
 
 Good luck! 
 
-~ Hints
+Hints
 
 Use the "Functions" window to list all functions in the program.
 
