@@ -262,25 +262,36 @@ If the jar does not run when you double, click on it then you can use this comma
 Good luck! 
 
 ~ Hints
+
 Use the "Functions" window to list all functions in the program.
+
 Use the "Disassembly" window to view the assembly code of the program.
+
 Use the "Strings" window to locate Strings in memory. 
+
 For example “Hello world” or other things that are relevant in the project or exercise like “Password” or “User name”.
 
-
-https://static.grumpycoder.net/pixel/docs/GhidraClass/Beginner/Introduction_to_Ghidra_Student_Guide_withNotes.html#Introduction_to_Ghidra_Student_Guide.html 
 
 
 == Useful Sources:
 The official Ghidra page https://ghidra-sre.org/
+
 How to use Ghidra https://www.varonis.com/blog/how-to-use-ghidra 
+
 For more exercises https://crackmes.one/ 
+
 Book  The Ghidra Book: The Definitive Guide by  Chris Eagle, Kara Nance (Eagle & Nance, 2020)
+
 Ghidra Github https://github.com/NationalSecurityAgency/ghidra 
+
 Ghidra documentation on API https://ghidra.re/ghidra_docs/api/ 
+
 Ghidra Wiki https://en.wikipedia.org/wiki/Ghidra The Ghidra Wiki is a community-driven resource that provides additional information and tutorials on using Ghidra. 
+
 For questions https://www.reddit.com/r/ghidra/ 
+
 Ghidra cheat sheet https://ghidra-sre.org/CheatSheet.html 
+
 Introduction to ghidra https://static.grumpycoder.net/pixel/docs/GhidraClass/Beginner/Introduction_to_Ghidra_Student_Guide_withNotes.html#Introduction_to_Ghidra_Student_Guide.html 
 
 Eagle, C., & Nance, K. (2020). The Ghidra Book: The Definitive Guide. No Starch Press.
