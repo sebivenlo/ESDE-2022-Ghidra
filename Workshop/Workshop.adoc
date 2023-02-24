@@ -161,13 +161,13 @@ Once your program is imported, right-click on it and select "Analyze." Ghidra wi
 
 . Explore the program:  
 
-You can now explore the program using the "Program Tree" and the different views in Ghidra. For example, you can view the program's code in the "Listing" view, which shows the assembly code for the program. 
+	You can now explore the program using the "Program Tree" and the different views in Ghidra. For example, you can view the program's code in the "Listing" view, which shows the assembly code for the program. 
 
   
 
 . Disassemble the program:  
 
-Let's disassemble the program to see its assembly code. In the "Program Tree," expand the "Functions" section and find the main function. Double-click on the function to open it in the "Listing" view. 
+	Let's disassemble the program to see its assembly code. In the "Program Tree," expand the "Functions" section and find the main function. Double-click on the function to open it in the "Listing" view. 
 
   
 
