@@ -150,8 +150,9 @@ image::Bookmark.png[]
 ==== Search 
 --
 .Search example
-image::Search.png[]
+image::Search.png[].
  
+
 == Practice into Action CrackMe1 Assignment
 
 Go into the Assignment folder
